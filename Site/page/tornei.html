@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de Navegação</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+    <div class="header" id="header">
+        <button onclick="Sidebar()" class="btn_icon_header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-border-width" viewBox="0 0 16 16">
+                <path d="M0 3.5A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-2zm0 5A.5.5 0 0 1 .5 8h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1zm0 4a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </button>
+
+
+
+        <div class="logo_header">
+            <img src="../img/logo.png" alt="Logo do Site" id="imglogo">
+        </div>
+
+        <div class="nagivation_header" id="nagivation_header">
+            <button onclick="Sidebar()" class="btn_icon_header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                    <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+                </svg>
+            </button>
+
+            
+            <img class="logo2" src="../img/userimg.png" height="100px" alt="">
+            <h3>Nomde do Time___ <br> Nome do Uuario </h3>
+            <a href="#" class="active">Perfil</a>
+            <a href="#" class="btn_header" > <img src="../img/nav1.png" alt="" class="navLogo"> Formata Time</a>
+            <a href="#" class="btn_header"> <img src="../img/nav2.png" alt="" class="navLogo"> Super Cartas</a>
+            <a href="#" class="btn_header"> <img src="../img/nav3.png" alt="" class="navLogo"> Super Baús</a>
+            <a href="#" class="btn_header"> <img src="../img/nav4.png" alt="" class="navLogo"> Sair da Conta</a>
+        </div>
+
+
+
+    </div>
+    <div tabindex="0" onclick="closeSidebar()" class="content" id="content">
+        <main>
+            <div>
+                <h1 class="mainTitulo"> Liga Classisca</h1>
+                <div class="main">
+                    <div class="conteudo_main">
+                        <img src="../img/img1.png" alt="">
+                        <p>Classificação por pontuação <br> Dura todo o compeonato <br> sem limites de participantes</p>
+                    </div>
+                    <a href="#" id="btn1">Criar Liga</a>
+                    <a href="#" id="btn2">Encontrar Ligas</a>
+                </div>
+            </div>
+            <div>
+                <h1 class="mainTitulo"> Liga Mata - Mata </h1>
+                <div class="main">
+                    <div class="conteudo_main">
+                        <img src="../img/img2.png" alt="">
+                        <p>Confronto Eliminatoria <br> Dura a 2 ou 5 rodadas <br> 4,8,16 ou 32 participantes</p>
+                    </div>
+                    <a href="#" id="btn1">Criar Mata - Mata</a>
+                    <a href="#" id="btn2">Encontrar Ligas</a>
+                </div>
+            </div>
+        </main> 
+        <footer>
+            <div class="footer" id="footer">
+                <div class="nagivation_footer" id="nagivation_footer">
+                    <a href="../index.html"><img src="../img/btn1.png" alt=""></a>
+                    <a href="#"><img src="../img/btn2.png" alt=""></a>
+                    <a href="#"><img src="../img/btn3.png" alt=""></a>
+                    <a href="amigos.html"><img src="../img/btn4.png" alt=""></a>
+                </div>
+            </div>
+        </footer>       
+    </div>
+</header>
+<!-- <main></main> -->
+<!-- <footer></footer> -->
+</body>
+<script src="../js/script.js"></script>
+</html>

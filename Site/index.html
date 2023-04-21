@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de Navegação</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="header" id="header">
+        <button onclick="Sidebar()" class="btn_icon_header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-border-width" viewBox="0 0 16 16">
+                <path d="M0 3.5A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-2zm0 5A.5.5 0 0 1 .5 8h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1zm0 4a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </button>
+                    
+        <div class="logo_header">
+            <img src="img/logo.png" alt="Logo do Site" id="imglogo">
+        </div>
+
+        <div class="nagivation_header" id="nagivation_header">
+            <button onclick="Sidebar()" class="btn_icon_header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                    <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+                </svg>
+            </button>
+
+            <img class="logo2" src="img/userimg.png" height="100px" alt="">
+            <h3>Nomde do Time___ <br> Nome do Uuario </h3>
+            <a href="#" class="active">Perfil</a>
+            <a href="#" class="btn_header" > <img src="img/nav1.png" alt="" class="navLogo"> Formata Time</a>
+            <a href="#" class="btn_header"> <img src="img/nav2.png" alt="" class="navLogo"> Super Cartas</a>
+            <a href="#" class="btn_header"> <img src="img/nav3.png" alt="" class="navLogo"> Super Baús</a>
+            <a href="#" class="btn_header"> <img src="img/nav4.png" alt="" class="navLogo"> Sair da Conta</a>
+        </div>
+
+
+
+        
+    </div>
+    <div tabindex="0" onclick="closeSidebar()" class="content" id="content">
+        <main>
+            <div class="main">
+                <div class="conteudo_main">
+                    <img src="img/userimg.png" alt="">
+                    <h1>Time do Usuario <br> Nivel____</h1>
+                </div>
+                <div class="placar">
+                    <h3>Pont. Jogador ____</h3> <h3>Vitorias____</h3> <h3>Derrotas____</h3>
+                </div>
+            </div>
+
+            <div class="main">
+                <div class="conteudo_main">
+                    <h1 id="txt">Relatorios<br>
+                </div>
+                <div class="placar_time">
+                    <h3>Time___ Perdeu Para Time ____ <br> De 1 x 2</h3>
+                    <h3>Time___ Perdeu Para Time ____ <br> De 2 x 1</h3>
+                    <h3>Time___ Perdeu Para Time ____ <br> De 3 x 0</h3>
+                    <h3>Time___ Perdeu Para Time ____ <br> De 3 x 0</h3>
+                    <h3>Time___ Perdeu Para Time ____ <br> De 1 x 2</h3>
+                    <h3>Time___ Perdeu Para Time ____ <br> De 2 x 1</h3>
+                    <h3>Time___ Perdeu Para Time ____ <br> De 3 x 0</h3>
+                    <h3>Time___ Perdeu Para Time ____ <br> De 1 x 2</h3>
+                    <h3>Time___ Perdeu Para Time ____ <br> De 2 x 1</h3>
+                    <h3>Time___ Perdeu Para Time ____ <br> De 3 x 0</h3>
+                    <h3>Time___ Perdeu Para Time ____ <br> De 1 x 2</h3>
+                    <h3>Time___ Perdeu Para Time ____ <br> De 2 x 1</h3>
+                    <h3>Time___ Perdeu Para Time ____ <br> De 3 x 0</h3>
+                </div>
+            </div>
+
+            <footer>
+                <div class="footer" id="footer">
+                    <div class="nagivation_footer" id="nagivation_footer">
+                        <a href="#"><img src="img/btn1.png" alt=""></a>
+                        <a href="#"><img src="img/btn2.png" alt=""></a>
+                        <a href="page/tornei.html"><img src="img/btn3.png" alt=""></a>
+                        <a href="page/amigos.html"><img src="img/btn4.png" alt=""></a>
+                    </div>
+                </div>
+            </footer>
+        </main>        
+    </div>
+</header>
+<!-- <main></main> -->
+<!-- <footer></footer> -->
+</body>
+<script src="js/script.js"></script>
+</html>
